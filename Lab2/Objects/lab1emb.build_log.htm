@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ccds ccds, ccds, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.34.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\rohan023\Downloads\Lab1_Backup\Lab1_Backup\lab1emb.uvprojx
+Project File Date:  02/09/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'testing'
+compiling event_groups.c...
+compiling list.c...
+compiling delay.c...
+compiling heap_4.c...
+compiling timers.c...
+compiling led.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+LibraryFiles\Hardware\led.c: 1 warning, 0 errors
+compiling buzzer.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+buzzer.c: 1 warning, 0 errors
+compiling main.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+main.c(103): warning:  #223-D: function "uart3_init" declared implicitly
+    uart3_init(115200);
+main.c: 2 warnings, 0 errors
+compiling UART.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+UART.c: 1 warning, 0 errors
+compiling userButton.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+userButton.c(25): warning:  #177-D: variable "song3"  was declared but never referenced
+  static u8* song3 =
+userButton.c(34): warning:  #177-D: variable "song2"  was declared but never referenced
+  static u8* song2 =
+userButton.c: 3 warnings, 0 errors
+compiling oled.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+LibraryFiles\Hardware\oled.c: 1 warning, 0 errors
+compiling system.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+LibraryFiles\SYSTEM\sys\system.c(15): warning:  #223-D: function "uart3_init" declared implicitly
+    uart3_init(115200);
+LibraryFiles\SYSTEM\sys\system.c: 2 warnings, 0 errors
+compiling queue.c...
+compiling show.c...
+.\LibraryFiles\Hardware\UART.h(10): warning:  #1295-D: Deprecated declaration uart3_send_name - give arg types
+  void uart3_send_name();
+LibraryFiles\Hardware\show.c: 1 warning, 0 errors
+compiling tasks.c...
+compiling port.c...
+linking...
+Program Size: Code=9438 RO-data=3214 RW-data=248 ZI-data=23984  
+FromELF: creating hex file...
+".\Objects\lab1emb.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil.STM32F4xx_DFP.3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
