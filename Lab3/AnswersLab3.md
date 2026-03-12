@@ -12,7 +12,6 @@ You can copy this entire text into a file named "README.txt" or paste it
 into a Word Document. All commands and code snippets are indented by 4 spaces 
 for clarity.
 
-===============================================================================
 PHASE 1: ENVIRONMENT SETUP (Manual Section 1)
 ===============================================================================
 
@@ -33,7 +32,7 @@ PHASE 1: ENVIRONMENT SETUP (Manual Section 1)
 
     echo "5" > input.txt
 
-===============================================================================
+
 PHASE 2: C PROGRAM FILES (Manual Section 6 & 8)
 ===============================================================================
 
@@ -112,7 +111,7 @@ and printMultiplyBy100.c. Use 'nano' to create them.
         return 0;
     }
 
-===============================================================================
+
 PHASE 3: MAKEFILE WITH DEBUG & PROFILE FLAGS (Manual Section 8, 9, 10)
 ===============================================================================
 
@@ -176,7 +175,7 @@ debugging (-g) and profiling (-pg).
     Verify files exist:
     ls -l
 
-===============================================================================
+
 PHASE 4: SHELL SCRIPT FOR PIPELINE (Manual Section 4 & 5)
 ===============================================================================
 
@@ -218,7 +217,7 @@ printFactorial, pipes to printMultiplyBy100, and redirects to output.txt.
     Multiply(120) = 12000
     output.txt should contain 12000.
 
-===============================================================================
+
 PHASE 5: DEBUGGING WITH GDB (Manual Section 9)
 ===============================================================================
 
@@ -259,7 +258,7 @@ Question 4 requires debugging printFactorial and checking recursion.
     5. Quit GDB
        quit
 
-===============================================================================
+
 PHASE 6: PROFILING WITH GPROF (Manual Section 10)
 ===============================================================================
 
@@ -304,7 +303,7 @@ Question 5 requires profiling with small and large numbers to see differences.
     3. Time Difference: The 'self' seconds for findFactorial will be higher 
        in the large number test because recursion depth is deeper.
 
-===============================================================================
+
 FINAL CHECKLIST
 ===============================================================================
 
@@ -317,6 +316,6 @@ Before submitting or finishing, ensure you have completed:
 [ ] Successfully stepped through recursion in GDB
 [ ] Generated gmon.out and analysis files for small and large inputs
 
-===============================================================================
+
 END OF DOCUMENT
 ===============================================================================
