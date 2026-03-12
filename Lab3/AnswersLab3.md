@@ -310,10 +310,15 @@ FINAL CHECKLIST
 Before submitting or finishing, ensure you have completed:
 
 [ ] Created 4 C files (mathlib.h, mathlib.c, printFactorial.c, printMultiplyBy100.c)
+
 [ ] Created Makefile with 'all', 'debug', 'profile', and 'clean' targets
+
 [ ] Created run_pipeline.sh with correct permissions (chmod +x)
+
 [ ] Verified pipeline output (input.txt -> output.txt)
+
 [ ] Successfully stepped through recursion in GDB
+
 [ ] Generated gmon.out and analysis files for small and large inputs
 
 
