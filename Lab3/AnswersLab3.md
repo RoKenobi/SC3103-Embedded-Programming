@@ -1,4 +1,3 @@
-===============================================================================
 SC3103 EMBEDDED PROGRAMMING - PRACTICAL EXERCISE #3 SOLUTION GUIDE
 Based on Lab Manual: Familiarization with Linux Environment and GNU Toolchain
 ===============================================================================
