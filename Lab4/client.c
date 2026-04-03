@@ -8,7 +8,7 @@
 
 #define PORT 8080
 // IP Address of the Ubuntu PC on the ethernet network
-#define SERVER_IP "192.168.3.171" 
+#define SERVER_IP "write the ip address" 
 
 typedef struct {
     int value;
